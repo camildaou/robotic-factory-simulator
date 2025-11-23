@@ -392,7 +392,7 @@ docker-compose up -d
 
 **Step 2: Create/Save Factory**
 
-1. Run `SimulatorApplication`
+1. Run `RemoteSimulatorApplication`
 2. Design factory or open existing: `factory123.factory`
 3. Save factory: File → Save
 4. Note the factory filename
