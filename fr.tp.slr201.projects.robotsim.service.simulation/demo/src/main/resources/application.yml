@@ -1,0 +1,42 @@
+# Application configuration for the Robot Simulation Service
+
+# Server configuration
+server:
+  port: 8090
+  servlet:
+    context-path: /
+
+# Application name
+spring:
+  application:
+    name: robotsim-simulation-service
+  http:
+    client:
+      timeout:
+        connect: 3000
+        read: 5000
+
+# Logging configuration
+logging:
+  level:
+    com.example.demo: INFO
+    fr.tp.inf112.projects.robotsim: DEBUG
+    org.springframework: WARN
+    root: INFO
+  pattern:
+    console: '%d{yyyy-MM-dd HH:mm:ss} - %msg%n'
+    file: '%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n'
+  file:
+    name: logs/simulation-service.log
+    max-size: 10MB
+    max-history: 5
+
+# Custom simulation configuration
+simulation:
+  persistence:
+    server:
+      url: http://localhost:8888/api/persistence
+      timeout: 5000
+    # Local file fallback directory (where .factory files are stored)
+    local:
+      directory: ../../fr.tp.inf112.projects.robotsim

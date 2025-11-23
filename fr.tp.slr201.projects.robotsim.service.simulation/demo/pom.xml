@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>3.5.6</version>
+		<relativePath/> <!-- lookup parent from repository -->
+	</parent>
+	<groupId>com.example</groupId>
+	<artifactId>demo</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>fr.tp.slr201.projects.robotsim.service.simulation</name>
+	<description>Robo Service</description>
+	<url/>
+	<licenses>
+		<license/>
+	</licenses>
+	<developers>
+		<developer/>
+	</developers>
+	<scm>
+		<connection/>
+		<developerConnection/>
+		<tag/>
+		<url/>
+	</scm>
+	<properties>
+		<java.version>17</java.version>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+		
+	<!-- Local robotsim project dependency -->
+	<!-- BOTH approaches needed: -->
+	<!-- 1. Maven system dependency (for compilation) -->
+	<!-- 2. IntelliJ module dependency (for IDE features and live updates) -->
+	<dependency>
+		<groupId>fr.tp.inf112.projects</groupId>
+		<artifactId>robotsim</artifactId>
+		<version>1.0.0</version>
+		<scope>system</scope>
+		<systemPath>${project.basedir}/../../fr.tp.inf112.projects.robotsim/libs/robotsim.jar</systemPath>
+	</dependency>
+	
+	<!-- Canvas and Graph depen	cd D:\Users\Camil\Downloads\robotic-factory-simulator\fr.tp.slr201.projects.robotsim.service.simulation\demo
+	Remove-Item -Recurse -Force target -ErrorAction SilentlyContinuedencies -->
+	<dependency>
+		<groupId>fr.tp.inf112.projects</groupId>
+		<artifactId>canvas-viewer</artifactId>
+		<version>1.0.0</version>
+		<scope>system</scope>
+		<systemPath>${project.basedir}/../../fr.tp.inf112.projects.robotsim/libs/canvas-viewer.jar</systemPath>
+	</dependency>
+	
+	<dependency>
+		<groupId>fr.tp.inf112.projects</groupId>
+		<artifactId>graph</artifactId>
+		<version>1.0.0</version>
+		<scope>system</scope>
+		<systemPath>${project.basedir}/../../fr.tp.inf112.projects.robotsim/libs/graph.jar</systemPath>
+	</dependency>
+	
+	<!-- JGraphT dependencies -->
+	<dependency>
+		<groupId>org.jgrapht</groupId>
+		<artifactId>jgrapht-core</artifactId>
+		<version>1.5.2</version>
+		<scope>system</scope>
+		<systemPath>${project.basedir}/../../fr.tp.inf112.projects.robotsim/libs/jgrapht/lib/jgrapht-core-1.5.2.jar</systemPath>
+	</dependency>
+	
+	<dependency>
+		<groupId>org.jgrapht</groupId>
+		<artifactId>jgrapht-io</artifactId>
+		<version>1.5.2</version>
+		<scope>system</scope>
+		<systemPath>${project.basedir}/../../fr.tp.inf112.projects.robotsim/libs/jgrapht/lib/jgrapht-io-1.5.2.jar</systemPath>
+	</dependency>
+	
+	<dependency>
+		<groupId>org.jheaps</groupId>
+		<artifactId>jheaps</artifactId>
+		<version>0.14</version>
+		<scope>system</scope>
+		<systemPath>${project.basedir}/../../fr.tp.inf112.projects.robotsim/libs/jgrapht/lib/jheaps-0.14.jar</systemPath>
+	</dependency>
+	
+	<!-- Jackson for JSON serialization -->
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+		</dependency>
+		
+		<!-- Logging -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-logging</artifactId>
+		</dependency>
+		
+		<!-- Kafka dependencies -->
+		<dependency>
+			<groupId>org.springframework.kafka</groupId>
+			<artifactId>spring-kafka</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.kafka</groupId>
+			<artifactId>spring-kafka-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>

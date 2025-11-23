@@ -1,0 +1,23 @@
+### Test 1: Health Check
+GET http://localhost:8090/api/simulation/health
+
+###
+
+### Test 2: Get Running Simulations
+GET http://localhost:8090/api/simulation/running
+
+###
+
+### Test 3: Start a simulation
+POST http://localhost:8090/api/simulation/start/helloworld.factory
+
+###
+
+### Test 4: Get a specific factory
+GET http://localhost:8090/api/simulation/factory/factory123.factory
+
+###
+
+### Test 5: Stop a simulation
+DELETE http://localhost:8090/api/simulation/stop/factory123.factory
+
