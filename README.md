@@ -441,7 +441,6 @@ Invoke-RestMethod -Uri "http://localhost:8090/api/simulation/stop/factory123.fac
 
 **Expected Result:**
 - ✅ Animation stops
-- ✅ GUI window can be closed
 - ✅ Microservice continues running
 - ✅ Can start another simulation
 
