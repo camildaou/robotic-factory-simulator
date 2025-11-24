@@ -1,10 +1,9 @@
 # Compiled class files
 *.class
-*.jar
+
+# Package Files (but keep libs/ JARs)
 *.war
 *.ear
-
-# Package Files
 *.nar
 
 # Log files
