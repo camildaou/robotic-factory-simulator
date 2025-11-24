@@ -11,8 +11,10 @@ This project is ready to open in **IntelliJ IDEA** or **Eclipse** with all confi
 ### IntelliJ IDEA (Recommended)
 1. **Clone the repository**: `git clone https://github.com/camildaou/robotic-factory-simulator.git`
 2. **Open Main Project**: File → Open → Select `robotic-factory-simulator/fr.tp.inf112.projects.robotsim`
-3. **Open Microservice** (in new window): File → Open → Select `robotic-factory-simulator/fr.tp.slr201.projects.robotsim.service.simulation` → Choose **New Window**
-4. **Run configurations will appear**: `SimulatorApplication`, `RemoteSimulatorApplication`, `FactoryPersistenceServer`, `DemoApplication`
+3. **Import Maven dependencies**: IntelliJ will detect `pom.xml` and prompt to import - click **Load Maven Project**
+4. **Open Microservice** (in new window): File → Open → Select `robotic-factory-simulator/fr.tp.slr201.projects.robotsim.service.simulation` → Choose **New Window**
+5. **Wait for Maven**: Both projects will download dependencies automatically
+6. **Run configurations will appear**: `SimulatorApplication`, `RemoteSimulatorApplication`, `FactoryPersistenceServer`, `DemoApplication`
 
 ### Eclipse
 1. **Clone the repository**: `git clone https://github.com/camildaou/robotic-factory-simulator.git`
