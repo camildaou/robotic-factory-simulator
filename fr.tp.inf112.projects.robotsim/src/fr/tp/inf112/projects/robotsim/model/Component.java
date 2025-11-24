@@ -168,7 +168,7 @@ public abstract class Component implements Figure, Serializable, Runnable {
 		while (isSimulationStarted()) {
 			behave();
 			try {
-				Thread.sleep(16); // Pause for 16 milliseconds (~60 FPS for smooth animation)
+				Thread.sleep(50); // Pause for 50 milliseconds (~20 FPS)
 			} catch (InterruptedException e) {
 				Thread.currentThread().interrupt();
 				LOGGER.warning(getName() + " interrupted");
