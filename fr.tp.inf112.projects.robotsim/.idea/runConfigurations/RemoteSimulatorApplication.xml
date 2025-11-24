@@ -1,5 +1,7 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="RemoteSimulatorApplication" type="Application" factoryName="Application">
+    <option name="ALTERNATIVE_JRE_PATH" value="17" />
+    <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
     <option name="MAIN_CLASS_NAME" value="fr.tp.inf112.projects.robotsim.app.RemoteSimulatorApplication" />
     <module name="fr.tp.inf112.projects.robotsim" />
     <option name="PROGRAM_PARAMETERS" value="localhost 8888" />
