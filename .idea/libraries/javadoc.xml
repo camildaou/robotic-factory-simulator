@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="javadoc">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/fr.tp.inf112.projects.robotsim/libs/jgrapht/javadoc/module-search-index.zip!/" />
+      <root url="jar://$PROJECT_DIR$/fr.tp.inf112.projects.robotsim/libs/jgrapht/javadoc/member-search-index.zip!/" />
+      <root url="jar://$PROJECT_DIR$/fr.tp.inf112.projects.robotsim/libs/jgrapht/javadoc/type-search-index.zip!/" />
+      <root url="jar://$PROJECT_DIR$/fr.tp.inf112.projects.robotsim/libs/jgrapht/javadoc/package-search-index.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

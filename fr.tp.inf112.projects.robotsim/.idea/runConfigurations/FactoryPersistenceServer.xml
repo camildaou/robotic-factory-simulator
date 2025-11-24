@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="FactoryPersistenceServer" type="Application" factoryName="Application">
-    <option name="MAIN_CLASS_NAME" value="fr.tp.inf112.projects.robotsim.model.FactoryPersistenceServer" />
+    <option name="MAIN_CLASS_NAME" value="fr.tp.inf112.projects.robotsim.server.FactoryPersistenceServer" />
     <module name="fr.tp.inf112.projects.robotsim" />
     <option name="VM_PARAMETERS" value="-Djava.util.logging.config.file=config/logging.properties" />
     <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
