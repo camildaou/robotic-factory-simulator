@@ -2,7 +2,27 @@
 
 A comprehensive distributed factory simulation system demonstrating microservices architecture, event-driven communication with Apache Kafka, and real-time visualization of autonomous robots navigating through factory environments.
 
-## 📋 Table of Contents
+## � Getting Started - Opening the Project
+
+This project is ready to open in **IntelliJ IDEA** or **Eclipse** with all configuration files included:
+
+### IntelliJ IDEA (Recommended)
+1. **Clone the repository**: `git clone https://github.com/YOUR_USERNAME/robotic-factory-simulator.git`
+2. **Open in IntelliJ**: File → Open → Select the `robotic-factory-simulator` folder
+3. **Wait for indexing**: IntelliJ will automatically detect the project structure and import Maven dependencies
+4. **Ready to run**: All run configurations are included in `.idea/` folder
+
+### Eclipse
+1. **Clone the repository**: `git clone https://github.com/YOUR_USERNAME/robotic-factory-simulator.git`
+2. **Import Project**: File → Import → Existing Projects into Workspace
+3. **Select root directory**: Browse to `robotic-factory-simulator`
+4. **Finish**: Eclipse will use the included `.classpath` and `.project` files
+
+**Note**: All IDE configuration files are version-controlled for immediate setup. No manual configuration required!
+
+---
+
+## �📋 Table of Contents
 
 - [Project Overview](#project-overview)
 - [System Architecture](#system-architecture)

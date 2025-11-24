@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="libs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../fr.tp.inf112.projects.robotsim/libs/robotsim.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../fr.tp.inf112.projects.robotsim/libs/canvas-viewer.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../fr.tp.inf112.projects.robotsim/libs/graph.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,161 @@
+POST http://localhost:8090/api/simulation/start/factory123.factory
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> f-2.txt
+
+###
+
+POST http://localhost:8090/api/simulation/start/factory123
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-11-23T135408.400.json
+
+###
+
+DELETE http://localhost:8090/api/simulation/stop/factoryz.factory
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> f-1.txt
+
+###
+
+DELETE http://localhost:8090/api/simulation/stop/factoryz
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-11-23T135008.404.json
+
+###
+
+POST http://localhost:8090/api/simulation/start/factoryz
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-11-23T134957.400.json
+
+###
+
+GET http://localhost:8090/api/simulation/running
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-11-23T134938.200.json
+
+###
+
+POST http://localhost:8090/api/simulation/start/factoryz
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-11-23T134935.400.json
+
+###
+
+POST http://localhost:8090/api/simulation/start/factoryz.factory
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> f.txt
+
+###
+
+POST http://localhost:8090/api/simulation/start/2
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-11-23T134723.400.json
+
+###
+
+GET http://localhost:8090/api/simulation/running
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-11-23T134508.200.json
+
+###
+
+DELETE http://localhost:8090/api/simulation/stop/test-factory-id
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-11-23T134450.404.json
+
+###
+
+GET http://localhost:8090/api/simulation/factory/test-factory-id
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+###
+
+POST http://localhost:8090/api/simulation/start/test-factory-id
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-11-23T134427.400.json
+
+###
+
+GET http://localhost:8090/api/simulation/running
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-11-23T134420.200.json
+
+###
+
+GET http://localhost:8090/api/simulation/health
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-11-23T134322.200.txt
+
+###
+
+GET http://localhost:8090/api/simulation/running
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-11-23T134314.200.json
+
+###
+
+GET http://localhost:8090/api/simulation/running
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-11-23T134257.200.json
+
+###
+

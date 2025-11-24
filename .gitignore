@@ -29,18 +29,18 @@ build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
-# IntelliJ IDEA
-.idea/
-*.iws
+# IntelliJ IDEA - Keep project files for easy setup
+# .idea/
+# *.iws
 *.iml
-*.ipr
+# *.ipr
 out/
-.idea_modules/
+# .idea_modules/
 
-# Eclipse
-.classpath
-.project
-.settings/
+# Eclipse - Keep project files for easy setup
+# .classpath
+# .project
+# .settings/
 bin/
 
 # NetBeans

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../fr.tp.inf112.projects.robotsim/fr.tp.inf112.projects.robotsim.iml" filepath="$PROJECT_DIR$/../fr.tp.inf112.projects.robotsim/fr.tp.inf112.projects.robotsim.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/fr.tp.slr201.projects.robotsim.service.simulation.iml" filepath="$PROJECT_DIR$/.idea/fr.tp.slr201.projects.robotsim.service.simulation.iml" />
+    </modules>
+  </component>
+</project>
