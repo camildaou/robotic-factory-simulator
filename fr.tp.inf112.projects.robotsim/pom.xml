@@ -74,6 +74,31 @@
             <version>0.14</version>
         </dependency>
 
+        <!-- Local project JARs as system dependencies -->
+        <dependency>
+            <groupId>fr.tp.inf112.projects</groupId>
+            <artifactId>canvas-viewer</artifactId>
+            <version>1.0.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/canvas-viewer.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>fr.tp.inf112.projects</groupId>
+            <artifactId>graph</artifactId>
+            <version>1.0.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/graph.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>fr.tp.inf112.projects</groupId>
+            <artifactId>robotsim</artifactId>
+            <version>1.0.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/robotsim.jar</systemPath>
+        </dependency>
+
         <!-- JUnit for testing -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>

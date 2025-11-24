@@ -11,12 +11,19 @@ This project is ready to open in **IntelliJ IDEA** or **Eclipse** with all confi
 ### IntelliJ IDEA (Recommended)
 1. **Clone the repository**: `git clone https://github.com/camildaou/robotic-factory-simulator.git`
 2. **Open Main Project**: File → Open → Select `robotic-factory-simulator/fr.tp.inf112.projects.robotsim`
-3. **Import Maven dependencies**: IntelliJ will detect `pom.xml` and prompt to import - click **Load Maven Project**
-   - Maven will download Kafka, Jackson, and other dependencies from Maven Central
-   - Local JARs (`canvas-viewer.jar`, `graph.jar`, `robotsim.jar`) are automatically configured via the `.iml` file
-4. **Open Microservice** (in new window): File → Open → Select `robotic-factory-simulator/fr.tp.slr201.projects.robotsim.service.simulation` → Choose **New Window**
-5. **Wait for Maven**: Both projects will download dependencies automatically
-6. **Run configurations will appear**: `SimulatorApplication`, `RemoteSimulatorApplication`, `FactoryPersistenceServer`, `DemoApplication`
+3. **Trust the project**: When prompted, click **Trust Project**
+4. **Import Maven dependencies**: 
+   - IntelliJ will detect `pom.xml` and show a popup in the bottom-right
+   - Click **Load Maven Project** or **Import Maven Changes**
+   - Wait for Maven to download dependencies (Kafka, Jackson, JGraphT, etc.)
+5. **Verify libraries loaded**: 
+   - Right-click on the project name → **Maven** → **Reload Project**
+   - Open Project Structure (File → Project Structure or Ctrl+Alt+Shift+S)
+   - Navigate to **Modules** → **Dependencies**
+   - You should see: Maven dependencies + `canvas-viewer.jar`, `graph.jar`, `robotsim.jar`, and all JGraphT JARs
+   - **If JARs still missing**: File → Invalidate Caches → Invalidate and Restart
+6. **Open Microservice** (in new window): File → Open → Select `robotic-factory-simulator/fr.tp.slr201.projects.robotsim.service.simulation` → Choose **New Window**
+7. **Run configurations will appear**: `SimulatorApplication`, `RemoteSimulatorApplication`, `FactoryPersistenceServer`, `DemoApplication`
 
 ### Eclipse
 1. **Clone the repository**: `git clone https://github.com/camildaou/robotic-factory-simulator.git`
@@ -628,6 +635,19 @@ Commands:
   docker ps
   docker-compose down
   docker-compose up -d
+```
+
+**Issue**: Cannot find canvas/graph classes - "package fr.tp.inf112.projects.canvas does not exist"
+```
+Solution: IntelliJ hasn't loaded the local JAR files
+Steps:
+  1. Close IntelliJ completely
+  2. Delete .idea folder in the project directory
+  3. Reopen: File → Open → Select project folder
+  4. Click "Trust Project" when prompted
+  5. Right-click project → Maven → Reload Project
+  6. Verify: File → Project Structure → Modules → Dependencies
+     Should show: canvas-viewer.jar, graph.jar, robotsim.jar + all JGraphT JARs
 ```
 
 **Issue**: GUI windows not appearing
