@@ -6,19 +6,21 @@ A comprehensive distributed factory simulation system demonstrating microservice
 
 This project is ready to open in **IntelliJ IDEA** or **Eclipse** with all configuration files included:
 
+**IMPORTANT**: This repository contains **two separate projects**. You must open each project folder individually, NOT the root folder.
+
 ### IntelliJ IDEA (Recommended)
-1. **Clone the repository**: `git clone https://github.com/YOUR_USERNAME/robotic-factory-simulator.git`
-2. **Open in IntelliJ**: File → Open → Select the `robotic-factory-simulator` folder
-3. **Wait for indexing**: IntelliJ will automatically detect the project structure and import Maven dependencies
-4. **Ready to run**: All run configurations are included in `.idea/` folder
+1. **Clone the repository**: `git clone https://github.com/camildaou/robotic-factory-simulator.git`
+2. **Open Main Project**: File → Open → Select `robotic-factory-simulator/fr.tp.inf112.projects.robotsim`
+3. **Open Microservice** (in new window): File → Open → Select `robotic-factory-simulator/fr.tp.slr201.projects.robotsim.service.simulation` → Choose **New Window**
+4. **Run configurations will appear**: `SimulatorApplication`, `RemoteSimulatorApplication`, `FactoryPersistenceServer`, `DemoApplication`
 
 ### Eclipse
-1. **Clone the repository**: `git clone https://github.com/YOUR_USERNAME/robotic-factory-simulator.git`
-2. **Import Project**: File → Import → Existing Projects into Workspace
+1. **Clone the repository**: `git clone https://github.com/camildaou/robotic-factory-simulator.git`
+2. **Import Projects**: File → Import → Existing Projects into Workspace
 3. **Select root directory**: Browse to `robotic-factory-simulator`
-4. **Finish**: Eclipse will use the included `.classpath` and `.project` files
+4. **Select both projects** and click **Finish**
 
-**Note**: All IDE configuration files are version-controlled for immediate setup. No manual configuration required!
+**Note**: DO NOT open the root `robotic-factory-simulator` folder in IntelliJ - open each subproject separately!
 
 ---
 
