@@ -61,21 +61,17 @@
             <version>1.4.11</version>
         </dependency>
 
-        <!-- JGraphT (already in libs, but for Maven awareness) -->
+        <!-- JGraphT - Graph algorithms for path finding -->
         <dependency>
             <groupId>org.jgrapht</groupId>
             <artifactId>jgrapht-core</artifactId>
             <version>1.5.2</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/libs/jgrapht/lib/jgrapht-core-1.5.2.jar</systemPath>
         </dependency>
 
         <dependency>
             <groupId>org.jheaps</groupId>
             <artifactId>jheaps</artifactId>
             <version>0.14</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/libs/jgrapht/lib/jheaps-0.14.jar</systemPath>
         </dependency>
 
         <!-- JUnit for testing -->
